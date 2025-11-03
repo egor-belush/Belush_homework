@@ -1,0 +1,6 @@
+text = input('Введите фразу: ')
+symb = len(text)
+words = text.split()
+words1 = len(words)
+print(f"Количество символов: {symb}")
+print(f"Количество слов: {words1}")
